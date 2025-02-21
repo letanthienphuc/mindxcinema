@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Đảm bảo chiều cao của màn hình */
+    background-image: url(picturee/istockphoto-1302642699-612x612.jpg);
+    padding: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 800px; /* Giới hạn chiều rộng tối thiểu của container */
+    height: 80vh; /* Chiều cao container chiếm 80% màn hình */
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 50px; /* Khoảng cách lớn giữa hai phần */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    padding: 40px; /* Tạo không gian bên trong form */
+    background-color: white;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    min-height: 400px; /* Đảm bảo form có chiều cao hợp lý */
+}
+
+.form-box {
+    margin-bottom: 100px; /* Khoảng cách giữa các form */
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 100px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 50px 0; /* Khoảng cách giữa các input */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Tạo khoảng cách giữa button và input */
+}
+
+button:hover {
+    background-color: #a04545;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #af4c4c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.register-box {
+    display: none;
+}
+
+.image-container {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ cho hình ảnh */
+    max-height: 100%; /* Giới hạn chiều cao của hình ảnh */
+}
