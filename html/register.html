@@ -1,30 +1,21 @@
+
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Đăng Ký</title>
-    <link rel="stylesheet" href="styless.css">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="form-container">
-            <div class="form-box">
-                <h2>Đăng ký</h2>
-                <form action="#" method="post">
-                    <input type="text" placeholder="User" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="password" placeholder="Password" required>
-                    <input type="password" placeholder="Type it again" required>
-                    <button type="submit">Register</button>
-                </form>
-                <p>Already have an account? <a href="index.html">Login</a></p>
-            </div>
-        </div>
-
-        <div class="image-container">
-            <img src="picturee/Simply-Recipes-Perfect-Popcorn-LEAD-41-4a75a18443ae45aa96053f30a3ed0a6b.jpg" alt="Hình ảnh">
-        </div>
+    <div class="form-container">
+        <h2>Đăng ký</h2>
+        <input type="text" id="register-username" placeholder="Tên người dùng">
+        <input type="password" id="register-password" placeholder="Mật khẩu">
+        <button onclick="register()">Đăng ký</button>
+        <p>Đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
